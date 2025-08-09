@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: var(--navy-blue);
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -20,13 +20,14 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   text-decoration: none;
-  color: var(--navy-blue);
+  color: #2e2f42;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .nav_logo_blue {
-  color: var(--iris);
+  color: #4d5ae5;
 }
 .nav-bar > .nav-links > a {
   font-size: 16px;
@@ -34,15 +35,15 @@ ul {
   line-height: 24px;
   letter-spacing: 2%;
   text-decoration: none;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .nav-bar > .nav-links > a:hover {
-  color: var(--ocean);
+  color: #404bbf;
 }
 
 .nav-bar > .nav-links > a:active {
-  color: var(--ocean);
+  color: #404bbf;
   text-decoration: underline;
 }
 
@@ -50,15 +51,15 @@ ul {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: var(--slate);
+  color: #434455;
   text-decoration: none;
 }
 
 .address-link:hover {
-  color: var(--ocean);
+  color: #404bbf;
 }
 .main-section {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
   height: 700px;
   text-align: center;
 }
@@ -72,61 +73,60 @@ ul {
 .main-section-button {
   font-weight: 500;
   color: #ffffff;
-  background-color: var(--iris);
+  background-color: #4d5ae5;
   border: none;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 4%;
-  width: 169px;
-  height: 56px;
+  /* width: 169px;
+  height: 56px; */
 }
 .main-section-button:hover {
-  background-color: var(--ocean);
+  background-color: #404bbf;
   cursor: pointer;
 }
 
 .benefits-section {
   background-color: #ffffff;
 }
-.benefits-section-header {
+/* .benefits-section-header {
   display: none;
-}
+} */
 .benefits-header {
-  color: var(--navy-blue);
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
 }
 .benefits-text {
-  color: var(--slate);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
 }
 .our-team-section {
   margin: 0;
-  background-color: var(--cloud);
+  background-color: #f4f4fd;
   height: 732px;
   text-align: center;
 }
 .our-team-header {
   padding-top: 120px;
-  color: var(--navy-blue);
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 2%;
 }
-.our-team-wrap {
+/* .our-team-wrap {
   display: flex;
   justify-content: space-around;
   padding: 0;
-}
+} */
 .our-team-item {
   background-color: #ffffff;
 }
 .our-team-name {
-  color: var(--navy-blue);
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
@@ -135,7 +135,6 @@ ul {
   padding-bottom: 0;
 }
 .our-team-position {
-  color: var(--slate);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -146,7 +145,7 @@ ul {
   /* height: 1240px; */
 }
 .portfolio-section-header {
-  color: var(--navy-blue);
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 2%;
@@ -154,25 +153,24 @@ ul {
 }
 .portfolio-section-wrap-list {
   background-color: #ffffff;
-  height: 420px;
-  width: 360px;
+  /* height: 420px;
+  width: 360px; */
 }
 .portfolio-list-header {
-  color: var(--navy-blue);
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
 }
 .portfolio-list-text {
-  color: var(--slate);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
 }
 .footer-section {
   height: 312px;
-  background-color: var(--navy-blue);
-  color: var(--cloud);
+  background-color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .footer_logo {
@@ -185,5 +183,5 @@ ul {
   text-transform: uppercase;
 }
 .footer_logo_blue {
-  color: var(--iris);
+  color: #4d5ae5;
 }
